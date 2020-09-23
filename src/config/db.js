@@ -2,7 +2,7 @@
 
 const mongoose = require("mongoose");
 
-const MONGOURI = "mongodb://localhost:27017/crud-usuarios";
+const MONGOURI = "mongodb://localhost:27017/Iplocal";
 
 mongoose.connect(MONGOURI, { useNewUrlParser: true,useUnifiedTopology: true });
 

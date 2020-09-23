@@ -9,7 +9,7 @@ const { route } = require("../routes/client");
 
 class ClientController {
 
-   async cadastrarUsuario(req, res) { 
+   async cadastrarUsuario(req, res){ 
     
         const errors = validationResult(req);
         if (!errors.isEmpty()) {

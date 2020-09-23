@@ -7,5 +7,5 @@ app.use(bodyparser.json());
 app.use('/api', client);
 
 app.listen(3001, () => {
-    console.log("API RODANDO");
+    console.log("Refazendo API");
 });

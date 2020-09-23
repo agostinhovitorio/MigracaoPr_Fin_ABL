@@ -1,5 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const user = require("./routes/user"); 
 const InitiateMongoServer = require("./config/db");
 
 //Inicio Servidor
@@ -17,7 +18,7 @@ const PORT = process.env.PORT || 4000;
 app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
-    res.json({message: "API rodando"});
+    res.json({message: "Refazendo API"});
 
 });
 
